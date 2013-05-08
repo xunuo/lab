@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../Documents/&#30740;&#31350;/Xcode&#24320;&#21457;&#39033;&#30446;/StatusItemTester/StatusItemTester.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:hello-world/hello-world.xcodeproj">
+   </FileRef>
+</Workspace>
