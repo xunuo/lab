@@ -13,6 +13,8 @@
 		80FF0903173A2704001B118B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 80FF0901173A2704001B118B /* Credits.rtf */; };
 		80FF0906173A2704001B118B /* StatusMenuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FF0905173A2704001B118B /* StatusMenuAppDelegate.m */; };
 		80FF0909173A2704001B118B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FF0907173A2704001B118B /* MainMenu.xib */; };
+		80FF0910173A2E1A001B118B /* icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 80FF090F173A2E1A001B118B /* icon.tiff */; };
+		80FF0912173A2E5B001B118B /* icon-tank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80FF0911173A2E5B001B118B /* icon-tank.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		80FF0904173A2704001B118B /* StatusMenuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusMenuAppDelegate.h; sourceTree = "<group>"; };
 		80FF0905173A2704001B118B /* StatusMenuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusMenuAppDelegate.m; sourceTree = "<group>"; };
 		80FF0908173A2704001B118B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		80FF090F173A2E1A001B118B /* icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = icon.tiff; sourceTree = "<group>"; };
+		80FF0911173A2E5B001B118B /* icon-tank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "icon-tank.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		80FF08F9173A2703001B118B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80FF090F173A2E1A001B118B /* icon.tiff */,
+				80FF0911173A2E5B001B118B /* icon-tank.jpg */,
 				80FF08FA173A2703001B118B /* status-menu-Info.plist */,
 				80FF08FB173A2704001B118B /* InfoPlist.strings */,
 				80FF08FE173A2704001B118B /* main.m */,
@@ -157,6 +163,8 @@
 				80FF08FD173A2704001B118B /* InfoPlist.strings in Resources */,
 				80FF0903173A2704001B118B /* Credits.rtf in Resources */,
 				80FF0909173A2704001B118B /* MainMenu.xib in Resources */,
+				80FF0910173A2E1A001B118B /* icon.tiff in Resources */,
+				80FF0912173A2E5B001B118B /* icon-tank.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				80FF090E173A2704001B118B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

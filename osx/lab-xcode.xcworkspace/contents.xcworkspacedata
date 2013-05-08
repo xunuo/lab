@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LearnObjectiveC/LearnObjectiveC.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:status-menu/status-menu.xcodeproj">
    </FileRef>
    <FileRef

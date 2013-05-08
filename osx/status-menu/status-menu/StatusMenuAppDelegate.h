@@ -9,6 +9,9 @@
 #import <Cocoa/Cocoa.h>
 
 @interface StatusMenuAppDelegate : NSObject <NSApplicationDelegate>
+{
+	NSStatusItem		*_statusItem;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 

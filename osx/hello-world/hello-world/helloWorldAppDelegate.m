@@ -25,14 +25,11 @@
 - (IBAction)helloWorldBtn:(id)sender {
     
     // 创建字符串
-    NSString *str = @"hello snow";
+    NSString *str = @"hello-world";
     //NSString *str = [[NSString alloc] initWithFormat:@"Hello,%@", @"snow"];
     
     // 输出调试信息
-    NSLog(@"clicked %@ button\n", str);
-    
-    
-    
+    NSLog(@"\nHello %@(%@), did you clicked the '%@' button?\n", NSUserName(), NSFullUserName(), str);
     
 }
 @end
