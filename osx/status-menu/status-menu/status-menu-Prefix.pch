@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'status-menu' target in the 'status-menu' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

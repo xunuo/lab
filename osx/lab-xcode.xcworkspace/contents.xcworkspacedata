@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:status-menu/status-menu.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:run-shell/run-shell.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../../Documents/&#30740;&#31350;/Xcode&#24320;&#21457;&#39033;&#30446;/StatusItemTester/StatusItemTester.xcodeproj">
    </FileRef>
    <FileRef
