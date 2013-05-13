@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '0120-Show-Panel' target in the '0120-Show-Panel' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

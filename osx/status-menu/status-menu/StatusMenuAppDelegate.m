@@ -101,4 +101,7 @@
 
 
 
+- (IBAction)menu1:(id)sender {
+    NSLog(@"menu-1");
+}
 @end

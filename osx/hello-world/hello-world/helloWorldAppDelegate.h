@@ -14,4 +14,6 @@
 
 - (IBAction)helloWorldBtn:(id)sender;
 
+- (IBAction)closeBtn:(id)sender;
+
 @end

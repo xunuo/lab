@@ -15,4 +15,6 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+- (IBAction)menu1:(id)sender;
+
 @end

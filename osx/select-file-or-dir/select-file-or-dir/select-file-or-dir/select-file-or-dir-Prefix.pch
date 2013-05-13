@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'select-file-or-dir' target in the 'select-file-or-dir' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

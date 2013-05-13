@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80DD6978173BAA9800BB4A90 /* status-menu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "status-menu.entitlements"; sourceTree = "<group>"; };
 		80FF08EF173A2703001B118B /* status-menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "status-menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FF08F2173A2703001B118B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		80FF08F5173A2703001B118B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -86,6 +87,7 @@
 		80FF08F8173A2703001B118B /* status-menu */ = {
 			isa = PBXGroup;
 			children = (
+				80DD6978173BAA9800BB4A90 /* status-menu.entitlements */,
 				80FF0904173A2704001B118B /* StatusMenuAppDelegate.h */,
 				80FF0905173A2704001B118B /* StatusMenuAppDelegate.m */,
 				80FF0907173A2704001B118B /* MainMenu.xib */,

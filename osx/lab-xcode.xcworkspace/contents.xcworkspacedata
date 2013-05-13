@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:show-panel/0120-Show-Panel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:select-file-or-dir/select-file-or-dir/select-file-or-dir.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:plist/plist/plist.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:tab-panel/tab-panel/tab-panel.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LearnObjectiveC/LearnObjectiveC.xcodeproj">
    </FileRef>
    <FileRef
