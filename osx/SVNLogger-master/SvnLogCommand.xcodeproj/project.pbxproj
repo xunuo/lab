@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D68DB0115EDF3D60041BBD4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D68DB0015EDF3D60041BBD4 /* Cocoa.framework */; };
+		2D68DB0B15EDF3D60041BBD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D68DB0915EDF3D60041BBD4 /* InfoPlist.strings */; };
+		2D68DB0D15EDF3D60041BBD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D68DB0C15EDF3D60041BBD4 /* main.m */; };
+		2D68DB1115EDF3D60041BBD4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2D68DB0F15EDF3D60041BBD4 /* Credits.rtf */; };
+		2D68DB1415EDF3D60041BBD4 /* DKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D68DB1315EDF3D60041BBD4 /* DKDocument.m */; };
+		2D68DB1715EDF3D60041BBD4 /* DKDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D68DB1515EDF3D60041BBD4 /* DKDocument.xib */; };
+		2D68DB1A15EDF3D60041BBD4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D68DB1815EDF3D60041BBD4 /* MainMenu.xib */; };
+		2D68DB2215EDF4FB0041BBD4 /* DKSvnLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D68DB2115EDF4FB0041BBD4 /* DKSvnLogModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D68DAFC15EDF3D60041BBD4 /* SvnLogCommand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvnLogCommand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D68DB0015EDF3D60041BBD4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2D68DB0315EDF3D60041BBD4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2D68DB0415EDF3D60041BBD4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2D68DB0515EDF3D60041BBD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D68DB0815EDF3D60041BBD4 /* SvnLogCommand-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SvnLogCommand-Info.plist"; sourceTree = "<group>"; };
+		2D68DB0A15EDF3D60041BBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D68DB0C15EDF3D60041BBD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D68DB0E15EDF3D60041BBD4 /* SvnLogCommand-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SvnLogCommand-Prefix.pch"; sourceTree = "<group>"; };
+		2D68DB1015EDF3D60041BBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2D68DB1215EDF3D60041BBD4 /* DKDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKDocument.h; sourceTree = "<group>"; };
+		2D68DB1315EDF3D60041BBD4 /* DKDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKDocument.m; sourceTree = "<group>"; };
+		2D68DB1615EDF3D60041BBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DKDocument.xib; sourceTree = "<group>"; };
+		2D68DB1915EDF3D60041BBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2D68DB2015EDF4FB0041BBD4 /* DKSvnLogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSvnLogModel.h; sourceTree = "<group>"; };
+		2D68DB2115EDF4FB0041BBD4 /* DKSvnLogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSvnLogModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D68DAF915EDF3D60041BBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D68DB0115EDF3D60041BBD4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D68DAF115EDF3D60041BBD4 = {
+			isa = PBXGroup;
+			children = (
+				2D68DB0615EDF3D60041BBD4 /* SvnLogCommand */,
+				2D68DAFF15EDF3D60041BBD4 /* Frameworks */,
+				2D68DAFD15EDF3D60041BBD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D68DAFD15EDF3D60041BBD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D68DAFC15EDF3D60041BBD4 /* SvnLogCommand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D68DAFF15EDF3D60041BBD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D68DB0015EDF3D60041BBD4 /* Cocoa.framework */,
+				2D68DB0215EDF3D60041BBD4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D68DB0215EDF3D60041BBD4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D68DB0315EDF3D60041BBD4 /* AppKit.framework */,
+				2D68DB0415EDF3D60041BBD4 /* CoreData.framework */,
+				2D68DB0515EDF3D60041BBD4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2D68DB0615EDF3D60041BBD4 /* SvnLogCommand */ = {
+			isa = PBXGroup;
+			children = (
+				2D68DB2015EDF4FB0041BBD4 /* DKSvnLogModel.h */,
+				2D68DB2115EDF4FB0041BBD4 /* DKSvnLogModel.m */,
+				2D68DB1215EDF3D60041BBD4 /* DKDocument.h */,
+				2D68DB1315EDF3D60041BBD4 /* DKDocument.m */,
+				2D68DB1515EDF3D60041BBD4 /* DKDocument.xib */,
+				2D68DB1815EDF3D60041BBD4 /* MainMenu.xib */,
+				2D68DB0715EDF3D60041BBD4 /* Supporting Files */,
+			);
+			path = SvnLogCommand;
+			sourceTree = "<group>";
+		};
+		2D68DB0715EDF3D60041BBD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D68DB0815EDF3D60041BBD4 /* SvnLogCommand-Info.plist */,
+				2D68DB0915EDF3D60041BBD4 /* InfoPlist.strings */,
+				2D68DB0C15EDF3D60041BBD4 /* main.m */,
+				2D68DB0E15EDF3D60041BBD4 /* SvnLogCommand-Prefix.pch */,
+				2D68DB0F15EDF3D60041BBD4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D68DAFB15EDF3D60041BBD4 /* SvnLogCommand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D68DB1D15EDF3D60041BBD4 /* Build configuration list for PBXNativeTarget "SvnLogCommand" */;
+			buildPhases = (
+				2D68DAF815EDF3D60041BBD4 /* Sources */,
+				2D68DAF915EDF3D60041BBD4 /* Frameworks */,
+				2D68DAFA15EDF3D60041BBD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SvnLogCommand;
+			productName = SvnLogCommand;
+			productReference = 2D68DAFC15EDF3D60041BBD4 /* SvnLogCommand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D68DAF315EDF3D60041BBD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2D68DAF615EDF3D60041BBD4 /* Build configuration list for PBXProject "SvnLogCommand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D68DAF115EDF3D60041BBD4;
+			productRefGroup = 2D68DAFD15EDF3D60041BBD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D68DAFB15EDF3D60041BBD4 /* SvnLogCommand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D68DAFA15EDF3D60041BBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D68DB0B15EDF3D60041BBD4 /* InfoPlist.strings in Resources */,
+				2D68DB1115EDF3D60041BBD4 /* Credits.rtf in Resources */,
+				2D68DB1715EDF3D60041BBD4 /* DKDocument.xib in Resources */,
+				2D68DB1A15EDF3D60041BBD4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D68DAF815EDF3D60041BBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D68DB0D15EDF3D60041BBD4 /* main.m in Sources */,
+				2D68DB1415EDF3D60041BBD4 /* DKDocument.m in Sources */,
+				2D68DB2215EDF4FB0041BBD4 /* DKSvnLogModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D68DB0915EDF3D60041BBD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D68DB0A15EDF3D60041BBD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D68DB0F15EDF3D60041BBD4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D68DB1015EDF3D60041BBD4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2D68DB1515EDF3D60041BBD4 /* DKDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D68DB1615EDF3D60041BBD4 /* en */,
+			);
+			name = DKDocument.xib;
+			sourceTree = "<group>";
+		};
+		2D68DB1815EDF3D60041BBD4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D68DB1915EDF3D60041BBD4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D68DB1B15EDF3D60041BBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2D68DB1C15EDF3D60041BBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2D68DB1E15EDF3D60041BBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvnLogCommand/SvnLogCommand-Prefix.pch";
+				INFOPLIST_FILE = "SvnLogCommand/SvnLogCommand-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D68DB1F15EDF3D60041BBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvnLogCommand/SvnLogCommand-Prefix.pch";
+				INFOPLIST_FILE = "SvnLogCommand/SvnLogCommand-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D68DAF615EDF3D60041BBD4 /* Build configuration list for PBXProject "SvnLogCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D68DB1B15EDF3D60041BBD4 /* Debug */,
+				2D68DB1C15EDF3D60041BBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D68DB1D15EDF3D60041BBD4 /* Build configuration list for PBXNativeTarget "SvnLogCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D68DB1E15EDF3D60041BBD4 /* Debug */,
+				2D68DB1F15EDF3D60041BBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D68DAF315EDF3D60041BBD4 /* Project object */;
+}

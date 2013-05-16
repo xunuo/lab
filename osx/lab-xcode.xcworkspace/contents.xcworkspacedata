@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SVNLogger-master/SvnLogCommand.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:show-panel/0120-Show-Panel.xcodeproj">
    </FileRef>
    <FileRef
